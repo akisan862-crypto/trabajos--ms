@@ -1,4 +1,4 @@
-
+/* Comparaciones y decisiones en JavaScript */
 let nota = 75;
 
 
@@ -20,6 +20,11 @@ if (nota > 0) {
 
     console.log(`Obtuviste un ${nota}. Lo siento, no apruebas (Nota inválida o en cero).`);
 }
+
+
+/* //// EJEMPLOS INDIVIDUALES */
+
+
 
 /* // 
 let edad = 20;
