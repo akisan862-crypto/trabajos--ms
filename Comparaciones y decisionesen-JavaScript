@@ -20,3 +20,37 @@ if (nota > 0) {
 
     console.log(`Obtuviste un ${nota}. Lo siento, no apruebas (Nota inválida o en cero).`);
 }
+
+/* // 
+let edad = 20;
+let tieneLicencia = true;
+
+
+if (edad >= 18 && tieneLicencia === true) {
+    console.log("¡Excelente! Tienes edad suficiente y licencia. Puedes conducir.");
+} else if (edad >= 18 && tieneLicencia === false) {
+    console.log("Tienes la edad para conducir, pero primero debes tramitar tu licencia.");
+} else {
+   
+    console.log("Lo siento, aún no tienes la edad suficiente para conducir.");
+} */
+
+/* // 
+let hora = 14; // Prueba cambiándolo a 9, 20 o 25
+
+)
+if (hora >= 0 && hora <= 23) {
+    
+    if (hora < 12) {
+        console.log(`Son las ${hora} horas. ¡Buenos días! ☀️`);
+    } else if (hora >= 12 && hora < 19) {
+        console.log(`Son las ${hora} horas. ¡Buenas tardes! 🌤️`);
+    } else {
+       
+        console.log(`Son las ${hora} horas. ¡Buenas noches! 🌙`);
+    }
+
+} else {
+
+    console.log("Esa no es una hora válida en el formato de 24 horas.");
+} */
