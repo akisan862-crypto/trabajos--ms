@@ -1,0 +1,35 @@
+
+let librosLeidos = [];
+
+
+function agregarLibro(titulo) {
+
+  librosLeidos.push(titulo);
+  console.log(`¡Éxito! Se ha agregado "${titulo}" a tu lista de leídos.`);
+}
+
+
+function mostrarLibrosLeidos() {
+ 
+  if (librosLeidos.length === 0) {
+    console.log("Aún no tienes libros en tu lista.");
+    return; 
+  }
+
+  console.log("--- Mis Libros Leídos ---");
+
+  for (let i = 0; i < librosLeidos.length; i++) {
+    console.log(`${i + 1}. ${librosLeidos[i]}`);
+  }
+  console.log("-------------------------");
+}
+
+
+
+mostrarLibrosLeidos(); 
+
+agregarLibro("El Principito");
+agregarLibro("Cien años de soledad");
+agregarLibro("Hábitos Atómicos");
+
+mostrarLibrosLeidos(); 
