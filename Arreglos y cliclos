@@ -19,3 +19,24 @@ for (let i = 0; i < frutas.length; i++) {
 
 console.log("Conteo de frutas usando FOR:");
 console.log(conteoFrutas);
+
+/* EJEMPLO EXTRA // 
+
+const conteoFrutasWhile = {};
+let i = 0; // Inicializamos el contador fuera del ciclo
+
+
+while (i < frutas.length) {
+  let fruta = frutas[i];
+  
+  if (conteoFrutasWhile[fruta]) {
+    conteoFrutasWhile[fruta]++;
+  } else {
+    conteoFrutasWhile[fruta] = 1;
+  }
+  
+  i++; 
+}
+
+console.log("Conteo de frutas usando WHILE:");
+console.log(conteoFrutasWhile); */
