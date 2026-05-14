@@ -1,0 +1,21 @@
+
+const frutas = ["manzana", "pera", "manzana", "naranja", "pera", "manzana", "platano", "naranja"];
+
+
+const conteoFrutas = {};
+
+
+for (let i = 0; i < frutas.length; i++) {
+  let fruta = frutas[i];
+
+  if (conteoFrutas[fruta]) {
+    conteoFrutas[fruta]++;
+  } else {
+
+    conteoFrutas[fruta] = 1;
+  }
+}
+
+
+console.log("Conteo de frutas usando FOR:");
+console.log(conteoFrutas);
